@@ -2,12 +2,9 @@ import telebot
 from telebot import types
 
 TOKEN = 'Написать токен бота'
-
-
-
+#Бот для учета личных расходов на python.
 
 bot = telebot.TeleBot(TOKEN)
-
 
 categories = {
     'Продукты': 0,
